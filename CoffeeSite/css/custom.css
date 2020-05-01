@@ -1,0 +1,17 @@
+#headerImage{
+  background-image: url("../images/bannerImage.jpg");
+  background-size: cover;
+  padding-bottom: 15%;
+}
+
+#welcomeMessage{
+  color: #90481c;
+}
+
+.starRating{
+  font-size: 26px;
+}
+
+#reviews{
+  background-color: #90481c;
+}
