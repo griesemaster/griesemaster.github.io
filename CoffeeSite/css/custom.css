@@ -10,8 +10,5 @@
 
 .starRating{
   font-size: 26px;
-}
-
-#reviews{
-  background-color: #90481c;
+  color: #90481c;
 }
