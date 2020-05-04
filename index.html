@@ -73,7 +73,7 @@
     <div class="card-deck">
       <!-- Sample Review Card -->
       <div class="card border-0">
-        <img class="card-img-top" src="images/defaultFace.png" alt="User Profile" height="360" width="360">
+        <img class="card-img-top lazy" data-src="images/defaultFace.png" alt="User Profile" height="360" width="360">
         <div class="card-body">
           <p class="card-title text-center reviewName">Karen K.</p>
           <p class="card-text text-center">I love Cosy Cafe! I go every day after I drop off my kids Brayden und Braxtion at school!</p>
@@ -84,7 +84,7 @@
       </div>
 
       <div class="card border-0">
-        <img class="card-img-top" src="images/defaultFace.png" alt="User Profile" height="360" width="360">
+        <img class="card-img-top lazyy" data-src="images/defaultFace.png" alt="User Profile" height="360" width="360">
         <div class="card-body">
           <p class="card-title text-center reviewName">Jaren J.</p>
           <p class="card-text text-center">This is the best coffee shop in the world! I bring it to all of my office parties and play it off as home brew, dozens of complements everyy time - totally foolproof. </p>
@@ -95,7 +95,7 @@
       </div>
 
       <div class="card border-0">
-        <img class="card-img-top" src="images/defaultFace.png" alt="User Profile" height="360" width="360">
+        <img class="card-img-top lazy" data-src="images/defaultFace.png" alt="User Profile" height="360" width="360">
         <div class="card-body">
           <p class="card-title text-center reviewName">Daniel D.</p>
           <p class="card-text text-center">I love bringing my schoolwork here and putting on some music. They have the best public WIFI and bathrooms of any place around campus</p>
@@ -106,7 +106,7 @@
       </div>
 
       <div class="card border-0">
-        <img class="card-img-top" src="images/defaultFace.png" alt="User Profile" height="360" width="360">
+        <img class="card-img-top lazy" data-src="images/defaultFace.png" alt="User Profile" height="360" width="360">
         <div class="card-body">
           <p class="card-title text-center reviewName">Herbert H.</p>
           <p class="card-text text-center">I hate this extensive and complecated menu, COFFEE IS BLACK. Their black coffee is quite good though.</p>
@@ -117,7 +117,7 @@
       </div>
 
       <div class="card border-0">
-        <img class="card-img-top" src="images/defaultFace.png" alt="User Profile" height="360" width="360">
+        <img class="card-img-top lazy" data-src="images/defaultFace.png" alt="User Profile" height="360" width="360">
         <div class="card-body">
           <p class="card-title text-center reviewName">Susan S.</p>
           <p class="card-text text-center">I am a big fan!! big fan!!</p>
@@ -134,5 +134,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+          // ... more custom settings?
+        });
+    </script>
   </body>
 </html>
