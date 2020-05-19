@@ -28,35 +28,38 @@
   <link href="css/style.css" rel="stylesheet">
 
 </head>
-<!-- ======= Header ======= -->
-<header id="header">
-  <div class="d-flex flex-column">
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-    <div class="profile">
-      <img src="images\Griese_Michael.jpg" alt="" class="img-fluid rounded-circle">
-      <h1 class="text-light"><a href="#about">Michael Griese</a></h1>
-      <div class="social-links mt-3 text-center">
-        <a href="https://github.com/griesemaster/"><i class="bx bxl-github"></i></a>
-        <a href="https://gitlab.com/mjgriese"><i class="bx bxl-gitlab"></i></a>
-        <a href="https://www.linkedin.com/in/michael-griese-3488a018a/"><i class="bx bxl-linkedin"></i></a>
+      <div class="profile">
+        <img src="images\Griese_Michael.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="#about">Michael Griese</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
       </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="#misc"><i class="bx bx-server"></i> Other Skills</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
     </div>
+  </header><!-- End Header -->
 
-    <nav class="nav-menu">
-      <ul>
-        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
-        <li><a href="#misc"><i class="bx bx-server"></i> Other Skills</a></li>
-        <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-
-      </ul>
-    </nav><!-- .nav-menu -->
-    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-  </div>
-</header><!-- End Header -->
 
   <main id="main">
     <!-- ======= About Section ======= -->
@@ -65,37 +68,41 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>This was a small week long project from my first year of programming. It is a python applicaion that draws either a triangle, rectangle, or elipse centered on the mouse click with random dimensions.
-          The drawing was all done using PyQt5 and I remember being overwhelmed with the detail of their documentation, but it was a good package to learn how to use. One of the hardest challenges in this project was getting the triangles to draw centered on the mouse click, as there is no built in way to draw the shape with the mouse click as center. To do this, I had to calcualte the center of a randomly generated triangle, and then place the vertecies relative to the mouse click.</p>
+          <p>This project was the final project for one of my third year classes. The image that is opened in the clip is entirely generated from the script, it is a PPM image in which each pixel is a RGB value. There is a list of environment shapes passed to the script and the image is generated. It is only capable of spheres, but other geometric figures could be added, with intense additional work.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 aos-init" data-aos="fade-right">
-            <img src="images/shapesClip.gif" class="img-fluid rounded" alt="">
+            <img src="images/raycasterClip.gif" class="img-fluid rounded" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content aos-init" data-aos="fade-left">
-            <h3>Shape Drawer</h3>
+            <h3>Raytracer</h3>
             <p class="font-italic">
-              This project was created using PyQt5
+              This project was developed in Ubuntu and complied and run from BASH shell
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Language:</strong> Python</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Source:</strong>This is a yearly project and I will not share the source for academic integrity</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Duration:</strong> 4 Days</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Language:</strong> C</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Source:</strong> Upon Request Only</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Duration:</strong> 2 Weeks</li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Team Structure:</strong> Solo Programming</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Test Coverage:</strong> N/A</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Difficulty:</strong> 4/10</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Difficulty:</strong> 7/10</li>
                 </ul>
               </div>
             </div>
-            <p> This project was key in getting familiar with PyQt5 and the interactions between the QPainter canvas and the QPen, which would prove valuable in later projects - like my Tic Tac Toe game.
+            <p> This project was quite cool to work on, as raytracing is going to become more popular as a graphics option in the coming years. Additionally, it was quite difficult to implement as the intersection formulas for the spheres did not work properly for a long time. The clip shows the execution of an earlier build that was not capable of shadow effects, which were added later.
             </p>
+          </div>
+          <div class="row aos-init" data-aos="fade-up">
+              <h4>Generated Image</h4>
+              <img src="images/creative.jpg" class="img-fluid rounded" alt="">
+            </div>
         </div>
 
       </div>
