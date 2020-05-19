@@ -1,5 +1,6 @@
 !(function($) {
   "use strict";
+  
 
   // Hero typed
   if ($('.typed').length) {

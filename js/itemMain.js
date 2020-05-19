@@ -1,5 +1,7 @@
 !(function($) {
   "use strict";
+
+
   // Initi AOS
   AOS.init({
     duration: 1000,
@@ -86,5 +88,5 @@
     }, 1500, 'easeInOutExpo');
     return false;
   });
-  
+
 })(jQuery);
